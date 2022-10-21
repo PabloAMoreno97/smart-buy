@@ -4,9 +4,9 @@ public class SaleRegister {
 
     private Long id;
     private Long fk_product;
-    private int price;
-    private int cost;
-    private int quantity;
+    private float price;
+    private float cost;
+    private float quantity;
     private String date;
     private Long fk_buyer;
 

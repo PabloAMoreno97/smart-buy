@@ -4,8 +4,8 @@ public class PriceChange {
 
     private Long id;
     private Long fk_product;
-    private int price;
-    private int cost;
+    private float price;
+    private float cost;
     private String date;
     private Long fk_authorization;
 

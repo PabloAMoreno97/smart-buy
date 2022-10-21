@@ -5,7 +5,7 @@ public class Product {
     private Long id;
     private String name;
     private String description;
-    private int cost;
-    private int price;
+    private float cost;
+    private float price;
 
 }
