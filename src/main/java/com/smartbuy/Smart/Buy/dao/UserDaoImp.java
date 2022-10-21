@@ -6,13 +6,15 @@ import de.mkammerer.argon2.Argon2Factory;
 import org.springframework.stereotype.Repository;
 
 import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
 import javax.transaction.Transactional;
 import java.util.List;
 
 @Repository
 @Transactional
-public class UserDaoImp implements UserDao{
+public class UserDaoImp implements UserDao {
 
+    @PersistenceContext
     EntityManager entityManager;
 
     @Override
